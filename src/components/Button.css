@@ -1,0 +1,45 @@
+.Button {
+    background-color: cadetblue;
+    display: flex;
+    border: 1px solid black;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    font-size: 24px;
+    color: black;
+    height: 75px;
+    width: 100px;
+}
+
+.Button[data-size="2"]{
+    height: 150px;
+    background-color: lavender;
+}
+
+.Button[data-value="null"] {
+    pointer-events: none;
+}
+
+.Button[data-size="1"]{
+    height: 20%;
+    background-color: lavender;
+}
+
+.Button[data-value="*"] {
+    height: 20%;
+    background-color: lavender;
+}
+
+.Button[data-value="clear"] {
+    height: 20%;
+    background-color:#F5B041;
+}
+.Button[data-value="/"] {
+    height: 20%;
+    background-color: lavender;
+}
+
+.Button:hover {
+    cursor:pointer;
+}

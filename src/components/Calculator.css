@@ -1,0 +1,30 @@
+body {
+    background-color: ivory;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow:auto;
+}
+
+.Calculator {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    margin: 25px;
+}
+
+.textCal {
+    font-family: Georgia;
+    text-shadow: 50px;
+    text-align: center;
+    color: black;
+    margin: 30px 50px;
+    font-size:54px;
+}
+
+.calc{
+    max-width: 13%;
+    position: relative;
+    left: 0;
+    padding-right: 15px;
+}
